@@ -1,0 +1,92 @@
+.bg{
+  
+  
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  animation-name: animegirls;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes animegirls{
+  
+  0%{background-image: url('bunnygirl.jpg')}
+  20%{background-image: url('Haimiya.jpg')}
+  40%{background-image: url('Rei.jpg')}
+  60%{background-image: url('Ryo.jpg')}
+  80%{background-image: url('Tenka.jpg')}
+  100%{background-image: url('Tenka2.jpg')}
+  
+}
+.txtcol{
+  
+  animation-name: txtcol;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.1s;    
+  animation-direction: alternate;
+  font-size: 10vh;
+  text-align: center;
+    }
+
+    @keyframes txtcol{
+      
+      0%{color: black;}
+      50%{color: blue;}
+      100%{color: purple;}
+      
+    }
+p1{
+  color: cyan;
+  font-size: 3vh;
+}
+.button1 {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button1:focus,
+.button1:hover {
+  background-color: purple;
+  
+}
+.button2 {
+  display: inline-block;
+  background-color: #E50914;
+  color: white;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button2:focus,
+.button2:hover {
+  background-color: black;
+  
+}
+
+.button3 {
+  display: inline-block;
+  background-color: deeppink;
+  color: white;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button3:focus,
+.button3:hover {
+  background-color: violet;
+  
+}
+
